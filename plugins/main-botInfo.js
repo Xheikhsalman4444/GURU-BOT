@@ -46,7 +46,7 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Guru.jpg')
 let user = global.db.data.users[who]
   
 let infobt = `
-≡ *INFO XLICON-V2 BOT*
+⭐ *INFO XLICON-V2 BOT* ⭐
 
   ╭───•✧✧•───╮
   *≡*. 
@@ -64,7 +64,7 @@ let infobt = `
  Code._
 © XLICON-V2 BY Salman Ahmad and AB-Dev
 
-*STATE*
+⚡ *STATE* ⚡
 ➫ *${groupsIn.length}* GROUP CHATS
 ➫  *${groupsIn.length}* united groups
 ➫  *${groupsIn.length - groupsIn.length}* abandoned groups
@@ -72,7 +72,7 @@ let infobt = `
 ➫  *${chats.length}* Total Chats
 
 
- *≡ S E R V E R*
+ *🕣 S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}
 
