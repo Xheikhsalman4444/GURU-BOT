@@ -46,25 +46,31 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Guru.jpg')
 let user = global.db.data.users[who]
   
 let infobt = `
-≡ *INFO BOT*
-  
-*STATE*
-▢ *${groupsIn.length}* GROUP CHATS
-▢ *${groupsIn.length}* united groups
-▢ *${groupsIn.length - groupsIn.length}* abandoned groups
-▢ *${chats.length - groupsIn.length}* private chats
-▢ *${chats.length}* Total Chats
+≡ *INFO XLICON-V2 BOT*
 
-*≡ OWNER*
-  *GURU*
-▢ Instagram :
-  • https://instagram.com/asli_guru69
-▢ GitHub :
-  • https://github.com/Guru322
-▢ Telegram : 
-  • t.me/i_want_to_be_isekaied (GURU) 
-▢ YouTube : 
-  • https://youtube.com/@Asliguru
+  ╭───•✧✧•───╮
+  *≡*. 
+│ ➫「 *Developer* 」
+│ ➫ *Name    :* Salman Ahmad & Abraham Dwamena
+│ ➫ *Place   :* Pakistan & Ghana
+│ ➫ *Gender  :*  ᴍᴀʟᴇ
+│ ➫ *Age     :* _18_ and _19_
+│ ➫ *Phone   :* wa.me/923184070915 & wa.me/+233533763772
+│ ➫ *YouTube :* youtube.com/@s4salmanyt 
+│ ➫ *GitHub  :* github.com/salmanytofficial
+│ ➫ *IG ID   :* instagram.com/ahmmikun
+│ ➫ *Channel* :https://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e
+│ ➫ *Status  :* Debugging
+ Code._
+© XLICON-V2 BY Salman Ahmad and AB-Dev
+
+*STATE*
+➫ *${groupsIn.length}* GROUP CHATS
+➫  *${groupsIn.length}* united groups
+➫  *${groupsIn.length - groupsIn.length}* abandoned groups
+➫  *${chats.length - groupsIn.length}* private chats
+➫  *${chats.length}* Total Chats
+
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
