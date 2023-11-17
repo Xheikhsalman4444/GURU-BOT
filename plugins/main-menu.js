@@ -14,11 +14,10 @@ import {
  import fetch from "node-fetch"
  
  const defaultMenu = {
-  before:const defaultMenu = {
   before: `
-  「 ${botname} あ⁩ 」\n
+  「 ${botname} あU+2069 」\n
   *%ucpn*
-⍟────────────────⍟
+ ⍟────────────────⍟
 *REMEMBER THIS BOT IS FOR*
 *EDUCATIONAL PERPOSES*
 ⍟────────────────⍟
@@ -37,7 +36,7 @@ import {
 
       🔰〘 𝙄𝙉𝙁𝙊 〙🔰
 ╭──────────────⍟
-➫ *_Founder_*: Salman Ahmad and Abraham Dwamena 
+➫ *_Founder_*: Salman Ahmad 
 ➫ *_Bot Name_*: ${botname}
 ➫ *_Mode_*: %mode
 ➫ *_HOST_*: kali Linix
@@ -62,12 +61,10 @@ import {
 ╭───────────────⍟ 
 ➫ %totalfeatures Commands
 ╰───────────────⍟
-
- %readmore
  `.trimStart(),
- header:" 🔰〘 *_%category_*  〙🔰",
- body: "⍟ %cmd %isPremium %islimit",
- footer: " ╰───────────────⍟ ",
+ header: "🔰〘 *_%category_*  〙🔰",
+ body: "© %cmd %isPremium %islimit",
+ footer: " ╰───────────────⍟",
  after: "\n%me",
  }
  let handler = async (m, {
@@ -78,7 +75,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "🕣",
+ text: "⏳",
  key: m.key,
    }
   })
@@ -261,4 +258,4 @@ import {
    res = "Good Night 🌙"
   }
   return res
- }
+   }
