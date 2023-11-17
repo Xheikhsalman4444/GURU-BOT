@@ -14,38 +14,60 @@ import {
  import fetch from "node-fetch"
  
  const defaultMenu = {
+  before:const defaultMenu = {
   before: `
   「 ${botname} あ⁩ 」\n
   *%ucpn*
- 
- 乂───『 *U S E R*』───乂
- ⛥ *Name:* %name
-  ⛥ *Gold:* %credit
-  ⛥ *Role:* %role
-  ⛥ *Level:* %level [ %xp4levelup Xp For Levelup]
-  ⛥ *Xp:* %exp / %maxexp
-  ⛥ *Total Xp:* %totalexp
-  ╰──────────⳹
- 
-  乂───『 *I N F O*』───乂
-  ⛥ *Bot Name:* ${botname}
-  ⛥ *Mode:* %mode
-  ⛥ *Platform:* %platform
-  ⛥ *Type:* NodeJs
-  ⛥ *Baileys:* Multi Device
-  ⛥ *Prefix:* [ *%_p* ]
-  ⛥ *Uptime:* %muptime
-  ⛥ *Database:*  %totalreg
-  ╰──────────⳹
-  
-  乂───『 *I N F O  C M D*』───乂 
-  │ *%totalfeatures* Commands
-  ╰──────────⳹
+⍟────────────────⍟
+*REMEMBER THIS BOT IS FOR*
+*EDUCATIONAL PERPOSES*
+⍟────────────────⍟
+*©Salman Ahmand*
+⍟────────────────⍟
+*_Konnichiwa! Its XLICON-MD A_* 
+*_Multi-Device Whatsapp BOT_*
+*_Recoded By Salman Ahmad And Abraham Dwamena_*
+⍟────────────────⍟
+                                    
+ ▀▄▀ █░░ █ █▀▀ █▀█ █▄░█  
+ █░█ █▄▄ █ █▄▄ █▄█ █░▀█  
+          
+ █▀▄▀█ █▀▄
+ █░▀░█ █▄▀
+
+      🔰〘 𝙄𝙉𝙁𝙊 〙🔰
+╭──────────────⍟
+➫ *_Founder_*: Salman Ahmad and Abraham Dwamena 
+➫ *_Bot Name_*: ${botname}
+➫ *_Mode_*: %mode
+➫ *_HOST_*: kali Linix
+➫ *_Type_*: NodeJs
+➫ *_Baileys_*: Multi Device
+➫ *_Prefix_*: [ *%_p* ]
+➫ *_Uptime_*: %muptime
+➫ *_Database_*:  %totalreg
+╰───────────────⍟ 
+      🔰〘 𝙐𝙎𝙀𝙍 〙🔰
+╭──────────────⍟
+➫ *_Name_*: %name
+➫ *_Gold_*: %credit
+➫ *_Role_*: %role
+➫ *_Level_*: %level [ %xp4levelup Xp For Levelup]
+➫ *_Xp_*: %exp / %maxexp
+➫ *_Total Xp_*: %totalexp
+╰──────────────⍟
+
+
+     🔰〘 𝑰𝑵𝑭𝑶 𝑪𝑴𝑫 〙🔰
+╭───────────────⍟ 
+➫ %totalfeatures Commands
+╰───────────────⍟
+
  %readmore
  `.trimStart(),
- header: "✦ ───『 *%category* 』─── ⚝",
- body: "◈ %cmd %isPremium %islimit",
- footer: "╰──────────⳹",
+ header:" 🔰〘 *_%category_*  〙🔰",
+ body: "⍟ %cmd %isPremium %islimit",
+ footer: " ╰───────────────⍟ ",
  after: "\n%me",
  }
  let handler = async (m, {
@@ -56,7 +78,7 @@ import {
  }) => {
   await conn.sendMessage(m.chat, {
    react: {
- text: "⏳",
+ text: "🕣",
  key: m.key,
    }
   })
